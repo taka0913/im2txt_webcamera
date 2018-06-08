@@ -49,3 +49,7 @@ chmod +x process_camera.sh
 ```
 ./process_camera.sh
 ```
+
+## Other
+I can answer questions in English or Japanese.
+日本語での質問でも大丈夫ですよ！
