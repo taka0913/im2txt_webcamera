@@ -53,4 +53,4 @@ chmod +x process_camera.sh
 ## Other
 I can answer questions in English or Japanese.
 
-日本語での質問でも大丈夫ですよ！
+日本語の質問でも大丈夫ですよ！
