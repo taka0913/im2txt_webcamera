@@ -36,9 +36,7 @@ bazel build -c opt //im2txt:run_inference_camera
 ```
 
 ## How to use
-1.Edit "process_camera.sh".
-
-Change line to your path.
+1.Open "process_camera.sh" and edit line to your path.
 ```
 --checkpoint_path="${HOME}/im2txt/model/train" \
 --vocab_file="${HOME}/im2txt/data/mscoco/word_counts.txt" \
