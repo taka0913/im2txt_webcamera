@@ -1,4 +1,4 @@
-# im2txt_webcamera
+# im2txt on webcamera
 
 
 ## Description
@@ -7,6 +7,7 @@ Show and Tell realtime detection with webcamera based on "run_inference.py".
 
 ## Additional requirement
 * **OpenCV**
+    * to use cv2.VideoCapture()
 
 
 ## Installation
