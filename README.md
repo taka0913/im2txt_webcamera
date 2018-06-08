@@ -1,7 +1,7 @@
 # im2txt_webcamera
 
 ## Description
-im2txt realtime detection with webcamera based on "run_inference.py".
+Show and Tell realtime detection with webcamera based on "run_inference.py".
 
 ## Additional requirement
 * **OpenCV**
@@ -12,7 +12,7 @@ im2txt realtime detection with webcamera based on "run_inference.py".
 2.Copy "im2txt" folder and "process_camera.sh" to "~/models/research/im2txt".
 
 3.Open "~/models/research/im2txt/im2txt/BUILD" and add this comment.
-```python
+```
 py_binary(
     name = "run_inference_camera",
     srcs = ["run_inference_camera.py"],
@@ -27,20 +27,21 @@ py_binary(
 ```
 
 4.Run this command at "~/models/research/im2txt".
-
+```
 bazel build -c opt //im2txt:run_inference_camera
-
+```
 ## How to use
 1.Edit "process_camera.sh".
 # Change line to your path.
-```python
+```
 --checkpoint_path="${HOME}/im2txt/model/train" \
 --vocab_file="${HOME}/im2txt/data/mscoco/word_counts.txt" \
 ```
 2.Run this command at "~/models/research/im2txt".
-
+```
 chmod +x process_camera.sh
-
+```
 3.You can run.
-
+```
 ./process_camera.sh
+```
